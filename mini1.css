@@ -1,0 +1,330 @@
+
+#cup {
+    color: crimson;
+}
+
+.img1{
+    /* float: left; */
+    width: 50px;
+    height: 50px;
+}
+
+
+.section{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+#shift{
+    margin-right: 1cm;
+}
+.topnav{
+    text-align: center;
+    background-color: brown;
+    color: White;
+    float: right;
+    font-family: Arial;
+    font-size: 18pt;
+    font-weight: bold;
+    height: 0.5cm;
+    width: 22cm;
+    padding-top: 0.2cm;
+    padding-bottom: 0.4cm;
+}
+
+.floatcontainer{
+    background-color:white;
+    padding: 5px;
+    height: 1.5cm;
+    display: flex;
+    justify-content: space-between;
+}
+
+.floatchild{
+    width: 10%;
+    float: left;
+    padding: 5px;
+}
+
+#floatchild{
+    justify-content: right;
+}
+
+
+.image{
+    margin: 0;
+    float: right;
+    background-color: rosybrown;
+    padding: 5px;
+    height: 12.2cm;
+    width: 35%;
+    margin-top: 0.5cm;
+}
+
+.writeup1{
+    text-align: center;
+    font-size: 14pt;
+    color: red;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+#emphasy{
+    color: rgb(238, 9, 9)
+}
+
+.line{
+    line-height: 10px;
+}
+
+.section{
+    background-color: rgb(41, 32, 32);
+    height: 1cm;
+    padding: 5px;
+    padding-bottom: 20px;
+    background-attachment: fixed;
+
+}
+
+.input{
+    width: 10cm;
+    height: 1cm;
+    margin: auto;
+    border-radius: 10px;
+    font-size: large;
+    align-items: center;
+    padding-left: 10px;
+    float: right;
+    border-color: goldenrod;
+    border-width: 2px;
+}
+
+.button{
+    width: 2cm;
+    height: 1cm;
+    font-weight: bold;
+    font-family: Arial;
+    background-color: cyan;
+    font-size: 16px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 0.1cm;
+    cursor: pointer;
+
+}
+
+.link{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 18pt;
+    text-decoration: none;
+    float: left;
+    color: white;
+    padding: 15px;
+
+}
+
+.div2{
+    background-color: rgb(197, 197, 197);
+    padding: 0.5cm;
+    width: 60%;
+}
+
+.div3{
+    background-color: red;
+    width: 7cm;
+    height: 5cm;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    cursor: pointer;
+    
+}
+
+.h1, .p{
+    font-size: 14pt;
+    font-family: Arial;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    color: white;   
+}
+
+        
+
+    .writeup{
+        text-align: center;
+    }
+
+#work{
+    display: flex;
+    justify-content: space-between;
+}
+
+div ul{
+    list-style-type:none;
+    background-color: brown;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: auto;
+    overflow: auto;
+    justify-content: right;
+    margin-top: 3mm;
+}
+
+li{
+    float: left;
+    transition: 2s linear;
+}
+
+li:hover{
+transform: scale(1.2);
+}
+
+.top a{
+    text-decoration: none;
+    font-size: 14pt;
+    font-family: 'Tahoma';
+    color: white;
+    display: block;
+    padding: 3mm;
+    font-weight: bold;
+}
+
+
+
+.sidebar{
+    background-color: darkolivegreen;
+    color: white;
+    width: 25%;
+    height: auto;
+}
+
+h1{
+    font-size: 24pt;
+    text-align: center;
+}
+
+#div4{
+    background-color: teal;
+    color: white;
+    font-size: 13pt;
+    font-family: 'Verdana';
+    width: 25%;
+    height: auto;
+
+    padding: 1cm;
+}
+
+#div5{
+    background-color: black;
+    color: white;
+    font-size: 13pt;
+    font-family: 'Verdana';
+    width: 25%;
+    height: auto;
+    padding: 1cm;
+    
+}
+
+#div6{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#newdiv{
+    background-color:orange;
+    color: white;
+    font-size: 13pt;
+    font-family: 'Verdana';
+    width: 25%;
+    height: auto;
+    text-align: center;
+    padding: 1cm;
+    display: flex;
+    justify-content: center;
+}
+
+#table{
+    color: black;
+    font-weight: bold;
+}
+
+#black{
+    border-color: black;
+    border-width: 2px;
+}
+
+#name{
+    font-family: 'Tahoma';
+    font-size: 32pt;
+    text-align: left;
+    margin-left: 4.5cm;
+}
+
+/* #play::before{
+    content: "Professional Coder";
+} */
+
+@keyframes name{
+    0% {content: "D";}
+    5% {content: "De";}
+    10% {content: "Dev";}
+    15% {content: "Deve";}
+    20% {content: "Devel";}
+    25% {content: "Develo";}
+    30% {content: "Develop";}
+    35% {content: "Develope";}
+    40% {content: "Developer";}
+    45% {content: "";}
+    50% {content: "P";}
+    53% {content: "Pr";}
+    56% {content: "Pro";}
+    59% {content: "Prof";}
+    62% {content: "Profe";}
+    65% {content: "Profes";}
+    68% {content: "Profess";}
+    71% {content: "Professi";}
+    74% {content: "Professio";}
+    77% {content: "Profession";}
+    80% {content: "Professional";}
+    84% {content: "Professional C";}
+    87% {content: "Professional Co";}
+    90% {content: "Professional Cod";}
+    93% {content: "Professional Code";}
+    96% {content: "Professional Coder";}
+    100% {content: "";}
+}
+
+@keyframes blink{
+    from {border-right: gray;}
+    to {border-right-color: transparent;}
+}
+
+#play::before{
+    content: "Developer";
+    animation-name: name;
+    animation-duration: 7s;
+    animation-iteration-count: 3;
+}
+
+#play{
+    border-right: 2px solid gray;
+}
+
+#fixed{
+    position: fixed;
+}
+
+.div3:hover{
+    background-color:blueviolet;
+    padding: 0.5cm;
+}
+
+
+div a:hover{
+    background-color: black;
+}
